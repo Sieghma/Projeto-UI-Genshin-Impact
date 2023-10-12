@@ -91,3 +91,57 @@ main .personagem .imagem {
     transform: scale(1.2);
     box-shadow: 0 0 10px #D9D9D9;
 }
+
+.conteudo .nome-personagem {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 70%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+
+overflow: hidden;
+    }
+  }
+
+  .conteudo .descricao {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 70%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+
+overflow: hidden;
+    }
+}
+
+.botoes {
+    animation: burger 3.5s forwards,
+    burgerclose 3.5s forwards;
+}
+
+
+@keyframes burger {
+    from {
+        right: -250px; 
+    }
+    to {
+        right: 0; 
+        margin-left: -21%; 
+    }
+}
