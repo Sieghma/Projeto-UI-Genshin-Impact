@@ -1,6 +1,6 @@
 @media (max-width: 769px) {
     main::after {
-        background: linear-gradient(0deg, #000000 20%, rgba(0, 0, 0, 0) 65%) no-repeat;
+        background: linear-gradient(-0deg, rgb(74, 168, 192) 13%, rgba(68, 30, 181, 0.813) 29%, #00000000 72%) no-repeat;
         width: 100vw;
     }
 
@@ -43,7 +43,7 @@
 
     .conteudo .logo {
         width: 170px;
-        height: 120px;
+        height: 140px;
     }
 
     .conteudo {
@@ -61,5 +61,16 @@
 
     .botoes .botao img {
         max-width: 50px;
+    }
+}
+
+@media (max-width: 450px)  {
+
+    body main::after {
+    background: linear-gradient(-0deg, rgb(74, 168, 192) 13%, rgba(68, 30, 181, 0.813) 29%, #00000000 72%) no-repeat;
+    width: 100vw;  
+}
+    body .botoes {
+        background-color: unset;
     }
 }
