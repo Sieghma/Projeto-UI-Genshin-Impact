@@ -10,7 +10,7 @@ main::after {
     left: 0;
     min-height: 100vh;
     width: 100vw;
-    background: linear-gradient(-276deg, rgb(74, 168, 192) 13%, rgba(68, 30, 181, 0.813) 29%, #00000000 72%) no-repeat;
+    background: linear-gradient(-276deg, rgb(25, 22, 78) 13%, rgba(68, 30, 181, 0.813) 29%, #00000000 72%) no-repeat;
 }
 
 main .personagem {
@@ -38,14 +38,6 @@ main .personagem .imagem {
     min-height: 100vh;
     max-width: 380px;
     z-index: 1;
-}
-
-.conteudo .nome-personagem {
-    color: #ffffff;
-    font-size: 48px;
-    font-family: "Secular One";
-    font-weight: 400;
-    margin-bottom: 20px;
 }
 
 .conteudo .descricao {
@@ -144,4 +136,63 @@ overflow: hidden;
         right: 0; 
         margin-left: -21%; 
     }
+}
+
+.conteudo .Nahida {
+    font-size: 48px;
+    font-family: "Courgette";
+    font-weight: 400;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #30b96d, #ecf665);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.conteudo .Furina {
+    font-size: 48px;
+    font-family: "Courgette";
+    font-weight: 400;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #076ed5, #4d8cc4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.conteudo .Keqing {
+    font-size: 48px;
+    font-family: "Courgette";
+    font-weight: 400;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #9920a9, #f9b6ff); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.conteudo .Nilou {
+    font-size: 48px;
+    font-family: "Courgette";
+    font-weight: 400;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #f01c74 30%, #449fe1 70%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Para navegadores não baseados em WebKit */
+    color: transparent; 
+
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.conteudo .HuTao {
+    font-size: 48px;
+    font-family: "Courgette";
+    font-weight: 400;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgb(217, 42, 33), #2203030b); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+
 }
